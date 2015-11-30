@@ -1,0 +1,85 @@
+h1
+{
+	border-style: ridge;
+	border-color : #F08080;
+	border-width: 3pt;
+	
+	font-family: "Arial";
+	font-size: 16pt;
+	color: rgb(128,0,0);
+	font-weight: bold;
+	text-align: center;
+	width: 40%;
+	padding: 3pt;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+p
+{
+	font-weight: bold;
+	text-align: center;
+	font-size: 12pt;
+}
+
+h2
+{
+	font-family: "Verdana";
+	font-size: 14pt;
+    color: rgb(128,0,0);
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul
+{
+	list-style: none;
+	margin: 3pt;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12pt;
+}
+
+hr
+{
+	width: 4in;
+	height: 4pt;
+	background-color: #F08080;
+	margin-top:50pt;
+}
+
+.haut
+{
+	background-color: #FFDAB9;
+	padding: 10pt;
+}
+
+.gauche
+{
+	background-color: #DEB887;
+	width: 33%;
+	display : inline-block;
+	padding-bottom:30pt;
+	margin-top: 10pt;
+}
+
+.milieu
+{
+	background-color: #FFFFA0;
+	width: 34%;
+	display : inline-block;
+	padding-bottom:30pt;
+	position: absolute;
+	margin-top: 10pt;
+}
+
+.droite
+{
+	background-color: #CDA0A0;
+	width: 33%;
+	display : inline-block;
+	padding-bottom:30pt;
+	position: absolute;
+	right:5pt;
+	margin-top: 10pt;
+}

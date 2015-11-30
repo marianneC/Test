@@ -1,0 +1,72 @@
+h1
+{
+	font-family: 'Indie Flower', cursive;
+
+	border-style: solid;
+	border-color: #0000AA;
+	border-width: 3pt;
+	
+	color: #BB0000;
+	text-align: center;
+	
+	padding: 3pt;
+	margin-bottom: 5pt;
+	margin-top: 5pt;
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	background-color: #B0E0E6;
+}
+
+h2
+{
+	text-decoration: underline;
+	color: #0000BB;
+}
+
+ul
+{
+	list-style-type: circle;
+}
+
+/*tableau*/
+table
+{
+	border: 5px solid navy;
+	background-color: #B0E0E6;
+}
+
+.ligne1
+{
+	border: 5px solid navy;
+	background-color: #00CEAA;
+}
+
+.ligne2
+{
+	border: 5px solid navy;
+	background-color: #87CEFA;
+}
+
+td
+{
+	background-color: #87CEFA;
+	border: 5px solid gray;
+	height: 100pt;
+	text-align: center;
+}
+
+/*Survol*/
+
+span
+{
+	 position:absolute;
+	 margin-top:30pt;
+	 margin-left:-130pt;
+	 transform:scale(0); 
+}
+
+.S:hover span
+{
+     transform:scale(1);        
+}

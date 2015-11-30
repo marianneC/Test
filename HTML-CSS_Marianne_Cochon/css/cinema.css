@@ -1,0 +1,77 @@
+body 
+{
+    background-color: #FEE9D8;
+}
+
+h1
+{
+	border-style: double;
+	border-color : #DEB887;
+	border-width: 2pt;
+	
+	text-align: center;
+	color: #DEB887;
+	width: 60%;
+	margin-left: 10%;
+}
+
+h1::first-letter
+{
+    font-size: 250%;
+    font-style: italic;
+    color: #A52A2A;
+}
+
+p::first-letter
+{
+	font-size: 250%;
+	font-weight: bold;
+	color: #A52A2A;
+	font-style: italic;
+}
+
+legend, caption
+{
+	font-weight: bold;
+}
+
+fieldset
+{
+	border: 2pt solid #A52A2A;
+	margin-bottom: 20pt;
+	margin-top: 5pt;
+	display : inline-block;
+	vertical-align: top;
+	padding-right: 90pt;
+}
+
+.image
+{
+	display : inline-block;
+	margin-left: 30%;
+	margin-top: -10pt;
+}
+
+img
+{
+	width: 200%;
+}
+
+table
+{
+	background-color: #DEB887;
+	border: 3pt ridge #A52A2A;
+	margin-top: -200pt;
+}
+
+td, th
+{
+	border: 3pt ridge #A52A2A;
+}
+
+hr
+{
+	padding: 1pt;
+	border: 3pt ridge #A52A2A;
+	margin-top: 50pt;
+}
